@@ -5,6 +5,7 @@ const MiniCard = (props) => {
     return (
         <Fragment>
             <div className='MiniCardPhoto'>
+                {/* {img} */}
                 <img src={img} className='' />
                 <p>My name</p>
             </div>
